@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F141248A1DCE000700BF6073 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14124891DCE000700BF6073 /* StartViewController.m */; };
+		F17092421DC66ACA00021AC2 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F17092411DC66ACA00021AC2 /* arrow.png */; };
 		F1B6C2331DC39F81002811CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B6C2321DC39F81002811CC /* main.m */; };
 		F1B6C2361DC39F82002811CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B6C2351DC39F82002811CC /* AppDelegate.m */; };
 		F1B6C2391DC39F82002811CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B6C2381DC39F82002811CC /* ViewController.m */; };
@@ -15,6 +17,12 @@
 		F1B6C2411DC39F82002811CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B6C23F1DC39F82002811CC /* LaunchScreen.storyboard */; };
 		F1B6C24C1DC39F82002811CC /* KappenballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B6C24B1DC39F82002811CC /* KappenballTests.m */; };
 		F1B6C2571DC39F83002811CC /* KappenballUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B6C2561DC39F83002811CC /* KappenballUITests.m */; };
+		F1B6C26F1DC3A5B2002811CC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B6C26A1DC3A5B2002811CC /* ball.png */; };
+		F1B6C2701DC3A5B2002811CC /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B6C26B1DC3A5B2002811CC /* field.png */; };
+		F1B6C2711DC3A5B2002811CC /* slider1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B6C26C1DC3A5B2002811CC /* slider1.png */; };
+		F1B6C2721DC3A5B2002811CC /* slider2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B6C26D1DC3A5B2002811CC /* slider2.png */; };
+		F1B6C2731DC3A5B2002811CC /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B6C26E1DC3A5B2002811CC /* thumb.png */; };
+		F1B6C27C1DC3B862002811CC /* ballView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B6C27B1DC3B862002811CC /* ballView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F14124881DCE000700BF6073 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		F14124891DCE000700BF6073 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		F17092411DC66ACA00021AC2 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		F1B6C22E1DC39F81002811CC /* Kappenball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kappenball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B6C2321DC39F81002811CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1B6C2341DC39F82002811CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,13 @@
 		F1B6C2521DC39F82002811CC /* KappenballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KappenballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B6C2561DC39F83002811CC /* KappenballUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KappenballUITests.m; sourceTree = "<group>"; };
 		F1B6C2581DC39F83002811CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B6C26A1DC3A5B2002811CC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		F1B6C26B1DC3A5B2002811CC /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field.png; sourceTree = "<group>"; };
+		F1B6C26C1DC3A5B2002811CC /* slider1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider1.png; sourceTree = "<group>"; };
+		F1B6C26D1DC3A5B2002811CC /* slider2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider2.png; sourceTree = "<group>"; };
+		F1B6C26E1DC3A5B2002811CC /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		F1B6C27A1DC3B862002811CC /* ballView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ballView.h; sourceTree = "<group>"; };
+		F1B6C27B1DC3B862002811CC /* ballView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ballView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,10 @@
 				F1B6C23F1DC39F82002811CC /* LaunchScreen.storyboard */,
 				F1B6C2421DC39F82002811CC /* Info.plist */,
 				F1B6C2311DC39F81002811CC /* Supporting Files */,
+				F1B6C27A1DC3B862002811CC /* ballView.h */,
+				F1B6C27B1DC3B862002811CC /* ballView.m */,
+				F14124881DCE000700BF6073 /* StartViewController.h */,
+				F14124891DCE000700BF6073 /* StartViewController.m */,
 			);
 			path = Kappenball;
 			sourceTree = "<group>";
@@ -117,6 +139,12 @@
 		F1B6C2311DC39F81002811CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1B6C26A1DC3A5B2002811CC /* ball.png */,
+				F17092411DC66ACA00021AC2 /* arrow.png */,
+				F1B6C26B1DC3A5B2002811CC /* field.png */,
+				F1B6C26C1DC3A5B2002811CC /* slider1.png */,
+				F1B6C26D1DC3A5B2002811CC /* slider2.png */,
+				F1B6C26E1DC3A5B2002811CC /* thumb.png */,
 				F1B6C2321DC39F81002811CC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,7 +272,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B6C2411DC39F82002811CC /* LaunchScreen.storyboard in Resources */,
+				F1B6C2701DC3A5B2002811CC /* field.png in Resources */,
 				F1B6C23E1DC39F82002811CC /* Assets.xcassets in Resources */,
+				F1B6C26F1DC3A5B2002811CC /* ball.png in Resources */,
+				F1B6C2731DC3A5B2002811CC /* thumb.png in Resources */,
+				F17092421DC66ACA00021AC2 /* arrow.png in Resources */,
+				F1B6C2721DC3A5B2002811CC /* slider2.png in Resources */,
+				F1B6C2711DC3A5B2002811CC /* slider1.png in Resources */,
 				F1B6C23C1DC39F82002811CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +306,9 @@
 			files = (
 				F1B6C2391DC39F82002811CC /* ViewController.m in Sources */,
 				F1B6C2361DC39F82002811CC /* AppDelegate.m in Sources */,
+				F141248A1DCE000700BF6073 /* StartViewController.m in Sources */,
 				F1B6C2331DC39F81002811CC /* main.m in Sources */,
+				F1B6C27C1DC3B862002811CC /* ballView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +532,7 @@
 				F1B6C25D1DC39F83002811CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1B6C25E1DC39F83002811CC /* Build configuration list for PBXNativeTarget "KappenballTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +541,7 @@
 				F1B6C2601DC39F83002811CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1B6C2611DC39F83002811CC /* Build configuration list for PBXNativeTarget "KappenballUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +550,7 @@
 				F1B6C2631DC39F83002811CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

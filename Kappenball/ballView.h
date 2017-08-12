@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ballView.h
 //  Kappenball
 //
 //  Created by Christos Demetriou on 28/10/2016.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ballView : UIImageView
 
 @end
-
